@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Video Speed Adjuster",
-  "version": "1.0",
-  "description": "Adjust playback speed of videos on the current page",
+  "name": "FOSS Music Tuner",
+  "version": "0.1",
+  "description": "Free and open source tool to tune your favourite music to various standard tuning frequencies.",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<title>FOSS Music Tuner</title>
+		<style>
+			@media (prefers-color-scheme: dark)
+			{
+    				body
+				{
+        				background-color: #121212;
+        				color: white;
+    				}
+				select
+				{
+					background-color: #212121;
+					color: white;
+				}
+			}
 
-<head>
-  <title>Adjust Video Speed</title>
-  <style>
-    body {
-      width: 200px;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-
-    button {
-      margin: 5px;
-      padding: 10px;
-      width: 80%;
-    }
-  </style>
-</head>
-
-<body>
-  <h3>Set Playback Speed</h3>
-  <button id="0.5x">0.5x</button>
-  <button id="1x">1x (Normal)</button>
-  <button id="1.5x">1.5x</button>
-  <button id="2x">2x</button>
-  <script src="popup.js"></script>
-</body>
+			body
+			{
+				width: 200px;
+				font-family: Arial, sans-serif;
+				text-align: center;
+			}
+			select
+			{
+				margin: 2px;
+				padding: 10px;
+				width: 80%;
+			}
+		</style>
+	</head>
+	<body>
+ 		<h2>FOSS Music Tuner</h2>
+			<center>
+				<select id="tuning">
+					<option value="1">440 Hz (Default)</option>
+					<option value="0.9963636364">174 Hz</option>
+					<option value="1.028431818">285 Hz</option>
+					<option value="1.010204545">396 Hz</option>
+					<option value="1.003954545">417 Hz</option>
+					<option value="0.9818181818">432 Hz</option>
+					<option value="1.009181818">528 Hz</option>
+					<option value="1.026681818">639 Hz</option>
+					<option value="1.001568182">741 Hz</option>
+					<option value="1.025613636">852 Hz</option>
+					<option value="0.9748636364">963 Hz</option>
+				</select>
+			</center>
+		<script src="popup.js"></script>
+	</body>
 
 </html>
